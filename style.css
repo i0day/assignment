@@ -1,6 +1,6 @@
 
 #antenna { width: 400px; 
-    height: 100px; margin: 0 auto; } 
+    height: 100px; margin: 0 30%; } 
     #left_antenna, #right_antenna { 
         width: 10px; 
         height: 100px; 
@@ -10,23 +10,23 @@
          -ms-border-radius: 10px; 
          -o-border-radius: 10px; float: left; }
  #left_antenna { position: relative; 
-    top: 2px;
-    left: 5px;
+    top: 40px;
+    left: 100px;
     transform:rotate(-33deg); 
      -webkit-transform: rotate(-33deg);
       -moz-transform: rotate(-33deg); 
       -ms-transform: rotate(-33deg); 
       -o-transform: rotate(-33deg); }
        #right_antenna { position: relative; 
-        top: 2px;
-         left: 50px;
+        top: 40px;
+         left:300px;
         transform: rotate(33deg); 
         -webkit-transform: rotate(33deg); 
         -moz-transform: rotate(33deg); 
     -ms-transform: rotate(33deg); 
     -o-transform: rotate(33deg); }
-    #left_antenna 
-#right_antenna,
+     
+
 #head { position:relative;
     top: 5px;
     left:-50px;
@@ -39,7 +39,9 @@
      -ms-border-radius: 200px 200px 0 0; 
      -o-border-radius: 200px 200px 0 0; 
      margin-bottom: 10px; } 
-#head, #left_arm, #torso,
+
+     #left_antenna,#right_antenna, 
+     #head, #left_arm, #torso,
   #right_arm, #left_leg, 
   #right_leg { background-color: #a4c739; }
  
